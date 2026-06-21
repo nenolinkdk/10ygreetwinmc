@@ -1,5 +1,7 @@
 # Birthday Block Mission til Windows
 
+Greet and win med Minecraft-tema til en 10-års fødselsdag.
+
 Et lille dansk matematikspil til Windows med Minecraft-inspirerede blokke.
 
 ## Installer
