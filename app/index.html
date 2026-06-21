@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Birthday Block Mission</title>
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="app-shell">
+    <section class="game" aria-label="Birthday Block Mission">
+      <header class="topbar">
+        <div>
+          <span>Score</span>
+          <strong id="score">0</strong>
+          <div id="scoreStack" class="score-stack" aria-label="Scoreblokke"></div>
+        </div>
+        <div>
+          <span>Mission</span>
+          <strong id="progress">0/10</strong>
+        </div>
+      </header>
+
+      <section id="startScreen" class="screen active">
+        <div class="block-logo" aria-hidden="true">
+          <span></span><span></span><span></span>
+          <span></span><span></span><span></span>
+        </div>
+        <h1>Birthday Block Mission</h1>
+        <p class="birthday">Tillykke med de 10 år!</p>
+        <p>Løs opgaver og byg din score med små matematik-klodser.</p>
+        <button id="startBtn" class="primary-btn" type="button">Start spillet</button>
+        <small class="version-tag">Windows version</small>
+      </section>
+
+      <section id="quizScreen" class="screen">
+        <div id="feedback" class="feedback" aria-live="polite"></div>
+        <p id="questionLabel" class="question-label">Mission 1 af 10</p>
+        <h2 id="questionText">Hvad er 8 + 4?</h2>
+        <div id="answers" class="answers" aria-label="Svarmuligheder"></div>
+      </section>
+
+      <section id="finalScreen" class="screen">
+        <div id="finalCake" class="cake-scene" aria-hidden="true"></div>
+        <h2>Du klarede missionen!</h2>
+        <p class="birthday">Tillykke med fødselsdagen!</p>
+        <p id="finalScore">Du fik 0 point.</p>
+        <p>Må din dag være fuld af kage, klodser og gode eventyr.</p>
+        <button id="againBtn" class="primary-btn" type="button">Spil igen</button>
+      </section>
+    </section>
+  </main>
+  <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Birthday Block Mission icon">
+  <rect width="512" height="512" fill="#4d96ff"/>
+  <rect x="56" y="56" width="400" height="400" fill="#fff8db" stroke="#1f2430" stroke-width="24"/>
+  <rect x="112" y="112" width="112" height="112" fill="#ff6b6b" stroke="#1f2430" stroke-width="16"/>
+  <rect x="224" y="112" width="112" height="112" fill="#00a676" stroke="#1f2430" stroke-width="16"/>
+  <rect x="112" y="224" width="112" height="112" fill="#ffd166" stroke="#1f2430" stroke-width="16"/>
+  <rect x="224" y="224" width="112" height="112" fill="#7b2cbf" stroke="#1f2430" stroke-width="16"/>
+  <text x="256" y="408" text-anchor="middle" font-family="Arial, sans-serif" font-size="82" font-weight="900" fill="#1f2430">10</text>
+</svg>
